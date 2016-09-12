@@ -7,6 +7,7 @@ body{
 }
 
 /* background color range */
+
 .fadeblue {
   background: #2D34C4;
 }
@@ -24,6 +25,7 @@ body{
 }
 
 /* button variation */
+
 .button{
   font-size: 1.64rem;
 }
@@ -35,8 +37,21 @@ body{
 .button-white.button-outline {
   color: #fff;
 }
+.button-white.button-outline:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color:#000;
+}
 .button-white.button-clear {
   color: #fff;
+}
+.button-white.button-clear:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color:#000;
+}
+.button-white.button-clear.resources{
+  padding: 0 1rem;
 }
 
 /* utilities and overwrites */
@@ -53,15 +68,8 @@ body{
   text-align: center;
 }
 
-a{
-  color: #fff;
-  text-decoration: underline;
-}
-a:hover{
-  color: #fff;
-}
-
 /* header styling */
+
 header h1{
   font-family: 'Baloo Paaji', cursive;
 }
@@ -76,4 +84,15 @@ header img {
 h2, h3, h4, h5, h6{
   font-family: 'Baloo Paaji', cursive;
   text-align: center;
+}
+
+/* footer styling */
+
+footer a{
+  color: #fff;
+  text-decoration: underline;
+}
+footer a:hover{
+  color: #fff;
+  text-decoration: none;
 }
