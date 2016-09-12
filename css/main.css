@@ -39,10 +39,26 @@ body{
   color: #fff;
 }
 
-/* utilities */
+/* utilities and overwrites */
+
+.margin-bot-full{
+  margin-bottom: 40px;
+}
+
+.margin-bot-half{
+  margin-bottom: 20px;
+}
 
 .center{
   text-align: center;
+}
+
+a{
+  color: #fff;
+  text-decoration: underline;
+}
+a:hover{
+  color: #fff;
 }
 
 /* header styling */
@@ -53,4 +69,11 @@ header img {
   max-height: 300px;
   max-width: 90%;
   margin: 0 auto;
+}
+
+/* body styling */
+
+h2, h3, h4, h5, h6{
+  font-family: 'Baloo Paaji', cursive;
+  text-align: center;
 }
