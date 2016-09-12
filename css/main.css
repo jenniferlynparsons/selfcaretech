@@ -68,6 +68,15 @@ body{
   text-align: center;
 }
 
+a.reverse{
+  color: #fff;
+  text-decoration: underline;
+}
+a.reverse:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 /* header styling */
 
 header h1{
