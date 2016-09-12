@@ -1,0 +1,31 @@
+body{
+  width: 100%;
+  height: 100%;
+  background: #8243B5;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+header{
+  text-align: center;
+}
+
+header img {
+  max-height: 300px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+.fadeblue {
+  background: #2D34C4;
+}
+.fadepurple {
+  background: #8243B5;
+}
+.fadegreen {
+  background: #50B733;
+}
+.fadeyellow {
+  background: #C4C42D;
+}
+.fadecyan {
+  background: #2DC4C4;
+}
