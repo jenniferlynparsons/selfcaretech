@@ -5,15 +5,8 @@ body{
   color: #fff;
   padding: 4rem 2rem;
 }
-header{
-  text-align: center;
-}
 
-header img {
-  max-height: 300px;
-  max-width: 90%;
-  margin: 0 auto;
-}
+/* background color range */
 .fadeblue {
   background: #2D34C4;
 }
@@ -28,4 +21,36 @@ header img {
 }
 .fadecyan {
   background: #2DC4C4;
+}
+
+/* button variation */
+.button{
+  font-size: 1.64rem;
+}
+.button-white {
+  background-color: #fff;
+  border-color: #fff;
+  color:#000;
+}
+.button-white.button-outline {
+  color: #fff;
+}
+.button-white.button-clear {
+  color: #fff;
+}
+
+/* utilities */
+
+.center{
+  text-align: center;
+}
+
+/* header styling */
+header h1{
+  font-family: 'Baloo Paaji', cursive;
+}
+header img {
+  max-height: 300px;
+  max-width: 90%;
+  margin: 0 auto;
 }
