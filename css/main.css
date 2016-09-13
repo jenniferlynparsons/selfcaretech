@@ -1,28 +1,39 @@
 body{
   width: 100%;
   height: 100%;
-  background: #8243B5;
+  background: #0080a7;
   color: #fff;
   padding: 4rem 2rem;
 }
 
-/* background color range */
+.container{
+  max-width: 600px;
+}
 
-.fadeblue {
-  background: #2D34C4;
+/* corner ribbon https://codepen.io/eode9/pen/twkKm */
+
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
 }
-.fadepurple {
-  background: #8243B5;
+
+.corner-ribbon.sticky{
+  position: fixed;
 }
-.fadegreen {
-  background: #50B733;
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
 }
-.fadeyellow {
-  background: #C4C42D;
-}
-.fadecyan {
-  background: #2DC4C4;
-}
+
 
 /* button variation */
 
@@ -56,6 +67,10 @@ body{
 
 /* utilities and overwrites */
 
+.hidden{
+  display: none;
+}
+
 .margin-bot-full{
   margin-bottom: 40px;
 }
@@ -82,8 +97,11 @@ a.reverse:hover{
 header h1{
   font-family: 'Baloo Paaji', cursive;
 }
-header img {
-  max-height: 300px;
+header h2{
+  font-size: 2.4rem;
+}
+header svg {
+  max-height: 150px;
   max-width: 90%;
   margin: 0 auto;
 }
@@ -91,11 +109,14 @@ header img {
 /* body styling */
 
 h2, h3, h4, h5, h6{
-  font-family: 'Baloo Paaji', cursive;
   text-align: center;
 }
 
 /* footer styling */
+
+footer p{
+  font-size: 1.24rem;
+}
 
 footer a{
   color: #fff;
