@@ -11,7 +11,7 @@ have a link to share? just [submit a pull request](https://github.com/jenniferly
 
 ## credits
 
-much thanks goes to these awesome people for hammering out some very important details at the start of this project:
+much thanks goes to these awesome people for helping me hammer out some very important details at the start of this project:
 
 * [@charlotteis](https://twitter.com/charlotteis)
 * [@_jokuge](https://twitter.com/_jokuge)
