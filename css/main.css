@@ -157,7 +157,7 @@ body.invert header svg{
     font-size: 2rem;
 }
 body.invert #navigation{
-    border:1px solid #fff;
+    border:1px solid #0080a7;
 }
 #navigation > div{
     padding: 1.48rem;
@@ -180,11 +180,11 @@ footer p{
   font-size: 1.24rem;
 }
 
-footer a{
+/*footer a{
   color: #fff;
   text-decoration: underline;
 }
 footer a:hover{
   color: #fff;
   text-decoration: none;
-}
+}*/
