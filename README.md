@@ -7,7 +7,7 @@ so often i see my fellow developers ignoring their basic needs for rest and refr
 
 not a developer or involved in tech? you still deserve to take time for self-care, too! you don't have to be in tech to contribute and use these links.
 
-have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/virtualhoodie/submissions.md)!
+have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/selfcaretech/submissions.md)!
 
 ## credits
 
@@ -19,3 +19,9 @@ much thanks goes to these awesome people for helping me hammer out some very imp
 * and the helpful folks of [We All JS](http://wealljs.org/)
 
 build using [milligram](https://milligram.github.io/), [tota11y](http://khan.github.io/tota11y/), and my own two hands.
+
+## submissions
+
+these folks have submitted helpful links to improve the directory:
+
+* [@AstraKiseki](https://github.com/AstraKiseki)
