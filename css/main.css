@@ -6,6 +6,11 @@ body{
   padding: 4rem 2rem;
 }
 
+body.invert{
+  color: #0080a7;
+  background: #fff;
+}
+
 .container{
   max-width: 600px;
 }
@@ -13,17 +18,18 @@ body{
 /* corner ribbon https://codepen.io/eode9/pen/twkKm */
 
 .corner-ribbon{
-  width: 200px;
-  background: #e43;
+  width: 175px;
+  background: #d42600;
   position: absolute;
-  top: 25px;
+  top: 20px;
   left: -50px;
   text-align: center;
-  line-height: 50px;
+  line-height: 30px;
   letter-spacing: 1px;
-  color: #f0f0f0;
+  color: #fff;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
+  font-size: 1.24rem;
 }
 
 .corner-ribbon.sticky{
@@ -40,30 +46,50 @@ body{
 .button{
   font-size: 1.64rem;
 }
-.button-white {
+.button{
   background-color: #fff;
   border-color: #fff;
-  color:#000;
+  color:#0080a7;
 }
-.button-white.button-outline {
+.button.button-outline {
   color: #fff;
 }
-.button-white.button-outline:hover {
+.button.button-outline:hover {
   background-color: #fff;
   border-color: #fff;
-  color:#000;
+  color:#0080a7;
 }
-.button-white.button-clear {
+.button.button-clear {
   color: #fff;
 }
-.button-white.button-clear:hover {
+.button.button-clear:hover {
   background-color: #fff;
   border-color: #fff;
-  color:#000;
+  color:#0080a7;
 }
-.button-white.button-clear.resources{
+.button.button-clear.resources{
   padding: 0 1rem;
 }
+
+body.invert .button.button-outline {
+  background-color: #fff;
+  border-color: #0080a7;
+  color: #0080a7;
+}
+body.invert .button.button-outline:hover {
+  background-color: #0080a7;
+  border-color: #0080a7;
+  color:#fff;
+}
+body.invert .button.button-clear {
+  color: #0080a7;
+}
+body.invert .button.button-clear:hover {
+  background-color: #0080a7;
+  border-color: #0080a7;
+  color:#fff;
+}
+
 
 /* utilities and overwrites */
 
@@ -92,6 +118,15 @@ a.reverse:hover{
   text-decoration: none;
 }
 
+body.invert a.reverse{
+  color: #0080a7;
+  text-decoration: underline;
+}
+body.invert a.reverse:hover{
+  color: #0080a7;
+  text-decoration: none;
+}
+
 /* header styling */
 
 header h1{
@@ -104,6 +139,10 @@ header svg {
   max-height: 150px;
   max-width: 90%;
   margin: 0 auto;
+  fill: #fff;
+}
+body.invert header svg{
+  fill: #0080a7
 }
 
 /* body styling */
