@@ -7,7 +7,7 @@ so often i see my fellow developers ignoring their basic needs for rest and refr
 
 not a developer or involved in tech? you still deserve to take time for self-care, too! you don't have to be in tech to contribute and use these links.
 
-have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/selfcaretech/submissions.md)!
+have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/selfcaretech/blob/master/submissions.md)!
 
 ## credits
 
