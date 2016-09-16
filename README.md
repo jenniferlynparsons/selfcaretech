@@ -25,3 +25,4 @@ build using [milligram](https://milligram.github.io/), [tota11y](http://khan.git
 these folks have submitted helpful links to improve the directory:
 
 * [@AstraKiseki](https://github.com/AstraKiseki)
+* [Leigh Honeywell](https://hypatia.ca)
