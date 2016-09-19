@@ -155,6 +155,7 @@ body.invert header svg{
     border:1px solid #fff;
     border-radius: .4rem;
     font-size: 2rem;
+    margin-bottom: 15rem;
 }
 body.invert #navigation{
     border:1px solid #0080a7;
