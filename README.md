@@ -27,3 +27,4 @@ these folks have submitted helpful links to improve the directory:
 * [@AstraKiseki](https://github.com/AstraKiseki)
 * [Leigh Honeywell](https://hypatia.ca)
 * [Brighid](http://stronglyemergent.com/)
+* [Laura Webb](http://www.LRWebb.com)
