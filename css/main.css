@@ -11,8 +11,10 @@ body.invert{
   background: #fff;
 }
 
-.container{
-  max-width: 600px;
+@media only screen and (min-device-width: 768px) {
+  .container{
+    max-width: 600px;
+  }
 }
 
 /* corner ribbon https://codepen.io/eode9/pen/twkKm */
@@ -29,15 +31,17 @@ body.invert{
   color: #fff;
   transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
-  font-size: 1.24rem;
+  /*font-size: 1.24rem;*/
 }
 
 @media only screen and (max-device-width: 800px)  {
-    .corner-ribbon{
-      width: 190px;
-      top: 27px;
-      line-height: 30px;
-    }
+  .corner-ribbon{
+    width: 430px;
+    top: 60px;
+    line-height: 70px;
+    left: -110px;
+    font-size: 2rem;
+  }
 }
 
 .corner-ribbon.shadow{
@@ -48,7 +52,8 @@ body.invert{
 /* button variation */
 
 .button{
-  font-size: 1.64rem;
+  font-size: 2.4rem;
+  white-space: normal;
 }
 .button{
   background-color: #fff;
@@ -92,6 +97,23 @@ body.invert .button.button-clear:hover {
   background-color: #0080a7;
   border-color: #0080a7;
   color:#fff;
+}
+
+@media only screen and (max-device-width: 600px)  {
+  ul{
+    list-style: none;
+  }
+  li{
+    margin-bottom: 4rem;
+  }
+  .button.button-clear.resources {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 1rem 1.8rem;
+    display: block;
+    height: auto;
+  }
 }
 
 
@@ -152,21 +174,21 @@ body.invert header svg{
 /* navigation styling */
 
 #navigation{
-    border:1px solid #fff;
-    border-radius: .4rem;
-    font-size: 2rem;
-    margin-bottom: 15rem;
+  border:1px solid #fff;
+  border-radius: .4rem;
+  font-size: 2rem;
+  margin-bottom: 15rem;
 }
 body.invert #navigation{
-    border:1px solid #0080a7;
+  border:1px solid #0080a7;
 }
 #navigation > div{
-    padding: 1.48rem;
-    margin-bottom: 0;
+  padding: 1.48rem;
+  margin-bottom: 0;
 }
 #navigation a{
-    display: inline-block;
-    padding:0 .48rem;
+  display: inline-block;
+  padding:0 .48rem;
 }
 
 /* body styling */
@@ -178,14 +200,22 @@ h2, h3, h4, h5, h6{
 /* footer styling */
 
 footer p{
-  font-size: 1.24rem;
+  font-size: 1.8rem;
 }
 
-/*footer a{
-  color: #fff;
-  text-decoration: underline;
+
+@media only screen and (max-device-width: 600px)  {
+  header h2{
+    font-size: 3.4rem;
+  }
+  .column.center{
+    font-size: 2rem;
+  }
+  .column.center br{
+    display: none;
+  }
+  #navigation a{
+    font-size: 2.4rem;
+    line-height: 6rem;
+  }
 }
-footer a:hover{
-  color: #fff;
-  text-decoration: none;
-}*/
