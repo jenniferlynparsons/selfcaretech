@@ -18,6 +18,8 @@ much thanks goes to these awesome people for helping me hammer out some very imp
 * [Sarah Withee](https://twitter.com/geekygirlsarah)
 * and the helpful folks of [We All JS](http://wealljs.org/)
 
+thanks to [@mchlltt](http://github.com/mchlltt/) for helping fix things up!
+
 build using [milligram](https://milligram.github.io/), [tota11y](http://khan.github.io/tota11y/), and my own two hands.
 
 ## submissions
@@ -28,3 +30,6 @@ these folks have submitted helpful links to improve the directory:
 * [Leigh Honeywell](https://hypatia.ca)
 * [Brighid](http://stronglyemergent.com/)
 * [Laura Webb](http://www.LRWebb.com)
+* [Jeseekia Vaughn](http://metadevgirl.com)
+* [@kmkrn](https://github.com/kmkrn)
+* [@mchlltt](http://github.com/mchlltt/)
