@@ -1,229 +1,311 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <title>selfcare.tech - developer resources for self-care</title>
-    <!-- <script type="text/javascript" src="js/bgcfade.js"></script> -->
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Roboto:300,300italic,700,700italic" rel="stylesheet">
-    <!-- CSS Reset -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
-    <!-- Milligram CSS minified -->
-    <link rel="stylesheet" href="css/milligram.min.css">
-    <link rel="stylesheet" href="css/main.css" media="screen">
+  <meta charset="utf-8">
+  <title>selfcare.tech - developer resources for self-care</title>
+  <!-- <script type="text/javascript" src="js/bgcfade.js"></script> -->
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Baloo+Paaji|Roboto:300,300italic,700,700italic" rel="stylesheet">
+  <!-- CSS Reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+  <!-- Milligram CSS minified -->
+  <link rel="stylesheet" href="css/milligram.min.css">
+  <link rel="stylesheet" href="css/main.css" media="screen">
 </head>
 <body>
-    <div id="inverter" class="corner-ribbon top-left sticky red shadow">invert colors</div>
-    <div class="container">
+  <div id="inverter" class="corner-ribbon top-left sticky red shadow">invert colors</div>
+  <div class="container">
 
-        <header class="row center margin-bot-half">
-            <div class="column">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64"><g><path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/><path d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"/><path d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"/><path d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"/><path d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"/><path d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"/><path d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"/><path d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"/><path d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"/></g></svg>
-                <h1>selfcare.tech</h1>
-                <h2>a repository of self-care resources for developers &amp; others</h2>
-            </div>
-        </header>
-        <div class="row">
-            <div class="column">
-                <p>
-                    i recently had a minor wake up call that i wasn't taking care of myself and it started me thinking about how important self care is, and how little we pay attention to it in the tech community.
-                </p>
-                <p>
-                    so often i see my fellow developers ignoring their basic needs for rest and refreshment. i started this site to provide a central location to find links that will help us all take better care of ourselves.
-                </p>
-                <p>
-                    not a developer or involved in tech? you still deserve to take time for self-care, too! you don't have to be in tech to contribute and use these links.
-                </p>
-            </div>
-        </div>
-        <div class="row margin-bot-full">
-            <div class="column center">
-                <p>
-                    have a link to share? just submit a pull request!<br>
-                    this project is intended to be a living, breathing resource.
-                </p>
-                <a class="button button-white button-outline" href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md">contribute</a>
-            </div>
-        </div>
-        <div id="navigation" class="row">
-            <div class="column center">
-                <a href="#general" class="reverse" title="general self-care">general self-care</a> |
-                <a href="#exercises" class="reverse" title="exercises">exercises</a> |
-                <a href="#noise" class="reverse" title="noise generators">noise generators</a> |
-                <a href="#meditations" class="reverse" title="meditations">meditations</a> |
-                <a href="#talks" class="reverse" title="talks &amp; presentations">talks &amp; presentations</a> |
-                <a href="#videos" class="reverse" title="videos">videos</a> |
-                <a href="#podcasts" class="reverse" title="podcasts">podcasts</a> |
-                <a href="#uplift" class="reverse" title="uplift &amp; positivity">uplift &amp; positivity</a> |
-                <a href="#journaling" class="reverse" title="journaling">journaling</a> |
-                <a href="#offline" class="reverse" title="offline activities">offline activities</a> |
-                <a href="#gaming" class="reverse" title="helpful games">helpful games</a>
-            </div>
-        </div>
-        <section id="general" class="row margin-bot-full">
-            <div class="column">
-                <h3>general self-care</h3>
-                <ul>
-                    <li><a href="http://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play" title="You Feel Like Shit" class="button button-white button-clear resources">You Feel Like Shit</a></li>
-                    <p>an interactive flow chart for people who struggle with self care</p>
-                    <!-- link template: <li><a href="" title="" class="button button-white button-clear resources"></a></li> -->
-                </ul>
-            </div>
-        </section>
-        <section id="exercises" class="row margin-bot-full">
-            <div class="column">
-                <h3>exercises</h3>
-                <ul>
-                    <li><a href="https://blog.codinghorror.com/programming-your-hands/" title="Programming Your Hands" class="button button-white button-clear resources">Programming Your Hands</a></li>
-                    <p>a collection of information on taking care of your hands and other body parts</p>                    
-                    <li><a href="http://www.reddit.com/r/Fitness/wiki/getting_started" title="Reddit's r/fitness" class="button button-white button-clear resources">Reddit's r/fitness</a></li>
-                    <p>an extensive getting started guide to exercises</p>
-                </ul>
-            </div>
-        </section>
-        <section id="noise" class="row margin-bot-full">
-            <div class="column">
-                <h3>noise generators</h3>
-                <ul>
-                    <li><a href="https://www.noisli.com/" title="Nois.li" class="button button-white button-clear resources">Noisli</a></li>
-                    <p>a background noise generator with built-in text editor</p>
-                    <li><a href="https://mynoise.net/noiseMachines.php" title="MyNoise" class="button button-white button-clear resources">MyNoise</a></li>
-                    <p>a site with a very wide variety of noise generators, ranging from nature sounds and industrial noises to soundscapes and simulated voices</p>
-                    <li><a href="http://rainymood.com/" title="Rainy Mood" class="button button-white button-clear resources">Rainy Mood</a></li>
-                    <p>a 30-minute thunderstorm loop, online and an app</p>
-                    <li><a href="http://tide.moreless.io/en/" title="Tide" class="button button-white button-clear resources">Tide</a></li>
-                    <p>a combination white-noise and pomodoro-timer app for iOS. soothing sounds &amp; periodic "take a break" reminders</p>
-                </ul>
-            </div>
-        </section>
-        <section id="meditations" class="row margin-bot-full">
-            <div class="column">
-                <h3>meditations</h3>
-                <ul>
-                    <li><a href="http://www.withandrewjohnson.com/" title="Andrew Johnson's relaxation MP3s and apps" class="button button-white button-clear resources">Andrew Johnson's relaxation MP3s &amp; apps</a></li>
-                    <p>a wonderful collection of free and paid apps and MP3s by a Scottish hypnotherapist</p>
-                    <li><a href="https://www.youtube.com/watch?v=92i5m3tV5XY" title="F*ck That: An Honest Meditation" class="button button-white button-clear resources">F*ck That: An Honest Meditation</a></li>
-                    <p>an irreverant, but surprisingly helpful 2 1/2 minute meditation</p>
-                    <li><a href="https://www.headspace.com/" title="Headspace" class="button button-white button-clear resources">Headspace</a></li>
-                    <p>meditation made simple. learn online, when you want, wherever you are, in just 10 minutes a day</p>
-                    <li><a href="https://www.calm.com/" title="Calm" class="button button-white button-clear resources">Calm</a></li>
-                    <p>a simple mindfulness meditation app that brings clarity and peace of mind into your life</p>
-                </ul>
-            </div>
-        </section>
-        <section id="talks" class="row margin-bot-full">
-            <div class="column">
-                <h3>talks, articles &amp; presentations</h3>
-                <ul>
-                    <li><a href="https://confreaks.tv/videos/osfeels2016-burnout-and-the-cult-of-busy" title="Burnout and the Cult of Busy" class="button button-white button-clear resources">Burnout and the Cult of Busy</a></li>
-                    <p>Caroline Moore's talk from OSFeels 2016</p>
-                    <li><a href="https://www.youtube.com/watch?v=RbeHBnWfXUc" title="Avoiding Burnout, and other essentials of Open Source Self-Care" class="button button-white button-clear resources">Avoiding Burnout &amp; other essentials of Open Source Self-Care</a></li>
-                    <p>a great talk by Kathleen Danielson at PyCon 2015 about how burnout happens, what it looks like, and how to recover from it</p>
-                    <li><a href="https://www.youtube.com/watch?v=YBoS-svKdgs" title="Go the Fuck Home: Engineering Work/Life Balance"  class="button button-white button-clear resources">Go the Fuck Home: Engineering Work/Life Balance</a></li>
-                    <p>Pam Selle's February 2012 Ignite Philly 9 talk on going the fuck home after work, working while you're at work, and being happy</p>
-                    <li><a href="http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/" title="How Walking in Nature Changes the Brain" class="button button-white button-clear resources">How Walking in Nature Changes the Brain</a></li>
-                    <p>a walk in the park may soothe the mind and change the workings of our brains in ways that improve our mental health</p>
-                </ul>
-            </div>
-        </section>
-        <section id="videos" class="row margin-bot-full">
-            <div class="column">
-                <h3>videos</h3>
-                <ul>
-                    <li><a href="https://www.youtube.com/watch?v=naOBXOdLiig" title="Sound of Rain" class="button button-white button-clear resources">Sound of Rain</a></li>
-                    <p>8 hour long video that highlights the sound of rain</p>
-                </ul>
-            </div>
-        </section>
-        <section id="podcasts" class="row margin-bot-full">
-            <div class="column">
-                <h3>podcasts</h3>
-                <ul>
-                    <li><a href="http://www.sleepwithmepodcast.com/" title="Sleep With Me Podcast" class="button button-white button-clear resources">Sleep With Me Podcast</a></li>
-                    <p>the podcast that puts you to sleep</p>
-                </ul>
-            </div>
-        </section>
-        <section id="uplift" class="row margin-bot-full">
-            <div class="column">
-                <h3>uplift &amp; positivity</h3>
-                <ul>
-                    <li><a href="http://calmingmanatee.com/" title="Calming Manatee" class="button button-white button-clear resources">Calming Manatee</a></li>
-                    <p>random slides of manatees with phrases as if they were your best parent-type friend</p>
-                    <li><a href="https://www.montereybayaquarium.org/animals-and-experiences/live-web-cams" title="Montery Bay Aquarium Live Cams" class="button button-white button-clear resources">Montery Bay Aquarium Live Cams</a></li>
-                    <p>live feeds of peaceful jellyfish, waving kelp forests and other sea life</p>
-                    <li><a href="https://www.nps.gov/dena/learn/photosmultimedia/webcams-pups.htm" title="Webcam: Sled Dog Puppies" class="button button-white button-clear resources">Webcam: Sled Dog Puppies</a></li>
-                    <p>sled dog puppies at the Historic Park Kennels of the Denali National Park and Preserve, Alaska, United States</p>
-                </ul>
-            </div>
-        </section>
-        <section id="journaling" class="row margin-bot-full">
-            <div class="column">
-                <h3>journaling</h3>
-                <ul>
-                    <li><a href="https://750words.com" title="750 Words" class="button button-white button-clear resources">750 Words</a></li>
-                    <p>online, always private, blank page for anything you want to say. the site is built around The Artist's Way's practice of free-association writing first thing in the morning. exports are available.</p>
-                </ul>
-            </div>
-        </section>
-        <section id="offline" class="row margin-bot-full">
-            <div class="column">
-                <h3>offline activities</h3>
-                <ul>
-                    <li><a href="http://www.bicyclecards.com/how-to-play/solitaire/" title="Solitaire" class="button button-white button-clear resources">Solitaire</a></li>
-                    <p>often called "Patience," more than 150 Solitaire games have been devised</p>
-                    <li><a href="http://www.craftyarncouncil.com/getting_started.php3" title="Knitting and Crochet: Getting Started" class="button button-white button-clear resources">Knitting and Crochet</a></li>
-                    <p>the Craft Yarn Council guide to getting started with knitting and crochet</p>
-                </ul>
-            </div>
-        </section>
-        <section id="gaming" class="row margin-bot-full">
-            <div class="column">
-                <h3>helpful games</h3>
-                <ul>
-                    <li><a href="https://habitica.com" title="Habitica" class="button button-white button-clear resources">Habitica</a></li>
-                    <p>a free habit building and productivity app that treats your real life like a game</p>
-                    <li><a href="https://www.superbetter.com/" title="Super Better" class="button button-white button-clear resources">Super Better</a></li>
-                    <p>gamify your life to improve your mood and conquer your challenges</p>
-                    <li><a href="http://getpauseapp.com/" title="Pause" class="button button-white button-clear resources">Pause</a></li>
-                    <p>triggers the body’s ‘rest and digest’ response by slowly and continuously moving your fingertip on the screen</p>
-                </ul>
-            </div>
-        </section>
-        <footer class="row">
-            <div class="column center">
-                <p>
-                    created with love by <a href="http://jenniferlynparsons.net" title="Jennifer Lyn Parsons" class="reverse">Jennifer Lyn Parsons</a> with help from <a href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md" title="Site credits" class="reverse">some awesome people</a>.
-                </p>
-            </div>
-        </footer>
-
+    <header class="row center margin-bot-half">
+      <div class="column">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64"><g><path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/><path d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"/><path d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"/><path d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"/><path d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"/><path d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"/><path d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"/><path d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"/><path d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"/></g></svg>
+        <h1>selfcare.tech</h1>
+        <h2>a repository of self-care resources for developers &amp; others</h2>
+      </div>
+    </header>
+    <div class="row">
+      <div class="column">
+        <p>
+          i recently had a minor wake up call that i wasn't taking care of myself and it started me thinking about how important self care is, and how little we pay attention to it in the tech community.
+        </p>
+        <p>
+          so often i see my fellow developers ignoring their basic needs for rest and refreshment. i started this site to provide a central location to find links that will help us all take better care of ourselves.
+        </p>
+        <p>
+          not a developer or involved in tech? you still deserve to take time for self-care, too! you don't have to be in tech to contribute and use these links.
+        </p>
+      </div>
     </div>
+    <div class="row margin-bot-full">
+      <div class="column center">
+        <p>
+          have a link to share? just submit a pull request!<br>
+          this project is intended to be a living, breathing resource.
+        </p>
+        <a class="button button-white button-outline" href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md">contribute</a>
+      </div>
+    </div>
+    <div id="navigation" class="row">
+      <div class="column center">
+        <a href="#general" class="reverse" title="general self-care">general self-care</a> |
+        <a href="#exercises" class="reverse" title="exercises">exercises</a> |
+        <a href="#meditations" class="reverse" title="meditations">meditations</a> |
+        <a href="#talks" class="reverse" title="talks &amp; presentations">talks &amp; presentations</a> |
+        <a href="#podcasts" class="reverse" title="podcasts">podcasts</a> |
+        <a href="#uplift" class="reverse" title="uplift &amp; positivity">uplift &amp; positivity</a> |
+        <a href="#journaling" class="reverse" title="journaling">journaling</a> |
+        <a href="#offline" class="reverse" title="offline activities">offline activities</a> |
+        <a href="#tools-apps" class="reverse" title="tools &amp; apps">general tools &amp; apps</a> |
+        <a href="#noise" class="reverse" title="noise generators">noise generators</a> |
+        <a href="#gaming" class="reverse" title="helpful games">helpful games</a>
+      </div>
+    </div>
+    <!-- link template:
+    <li>
+      <a href="" title="" class="button button-white button-clear resources"></a>
+      <p></p>
+    </li>
+    -->
+    <section id="general" class="row margin-bot-full">
+      <div class="column">
+        <h3>general self-care</h3>
+        <ul>
+          <li>
+            <a href="http://philome.la/jace_harr/you-feel-like-shit-an-interactive-self-care-guide/play" title="You Feel Like Shit" class="button button-white button-clear resources">You Feel Like Shit</a>
+            <p>an interactive flow chart for people who struggle with self care</p>
+          </li>
+          <li>
+            <a href="https://osmihelp.org" title="OSMI - Open Sourcing Mental Illness" class="button button-white button-clear resources">OSMI - Open Sourcing Mental Illness</a>
+            <p>a non-profit organization website with forums that is focusing on improving mental state of IT-workers</p>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="exercises" class="row margin-bot-full">
+    <div class="column">
+      <h3>exercises</h3>
+      <ul>
+        <li>
+          <a href="https://blog.codinghorror.com/programming-your-hands/" title="Programming Your Hands" class="button button-white button-clear resources">Programming Your Hands</a>
+          <p>a collection of information on taking care of your hands and other body parts</p>
+        </li>
+        <li>
+          <a href="http://www.reddit.com/r/Fitness/wiki/getting_started" title="Reddit's r/fitness" class="button button-white button-clear resources">Reddit's r/fitness</a>
+          <p>an extensive getting started guide to exercises</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="meditations" class="row margin-bot-full">
+    <div class="column">
+      <h3>meditations</h3>
+      <ul>
+        <li>
+          <a href="http://www.withandrewjohnson.com/" title="Andrew Johnson's relaxation MP3s and apps" class="button button-white button-clear resources">Andrew Johnson's relaxation MP3s &amp; apps</a>
+          <p>a wonderful collection of free and paid apps and MP3s by a Scottish hypnotherapist</p>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=92i5m3tV5XY" title="F*ck That: An Honest Meditation" class="button button-white button-clear resources">F*ck That: An Honest Meditation</a>
+          <p>an irreverant, but surprisingly helpful 2 1/2 minute meditation</p>
+        </li>
+        <li>
+          <a href="https://www.headspace.com/" title="Headspace" class="button button-white button-clear resources">Headspace</a>
+          <p>meditation made simple. learn online, when you want, wherever you are, in just 10 minutes a day</p>
+        </li>
+        <li>
+          <a href="https://www.calm.com/" title="Calm" class="button button-white button-clear resources">Calm</a>
+          <p>a simple mindfulness meditation app that brings clarity and peace of mind into your life</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="talks" class="row margin-bot-full">
+    <div class="column">
+      <h3>talks, articles &amp; presentations</h3>
+      <ul>
+        <li>
+          <a href="https://confreaks.tv/videos/osfeels2016-burnout-and-the-cult-of-busy" title="Burnout and the Cult of Busy" class="button button-white button-clear resources">Burnout and the Cult of Busy</a>
+          <p>Caroline Moore's talk from OSFeels 2016</p>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=RbeHBnWfXUc" title="Avoiding Burnout, and other essentials of Open Source Self-Care" class="button button-white button-clear resources">Avoiding Burnout &amp; other essentials of Open Source Self-Care</a>
+          <p>a great talk by Kathleen Danielson at PyCon 2015 about how burnout happens, what it looks like, and how to recover from it</p>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=YBoS-svKdgs" title="Go the Fuck Home: Engineering Work/Life Balance"  class="button button-white button-clear resources">Go the Fuck Home: Engineering Work/Life Balance</a>
+          <p>Pam Selle's February 2012 Ignite Philly 9 talk on going the fuck home after work, working while you're at work, and being happy</p>
+        </li>
+        <li>
+          <a href="http://well.blogs.nytimes.com/2015/07/22/how-nature-changes-the-brain/" title="How Walking in Nature Changes the Brain" class="button button-white button-clear resources">How Walking in Nature Changes the Brain</a>
+          <p>a walk in the park may soothe the mind and change the workings of our brains in ways that improve our mental health</p>
+        </li>
+        <li>
+          <a href="https://www.ted.com/talks/guy_winch_the_case_for_emotional_hygiene" title="We all need to practice emotional first aid" class="button button-white button-clear resources">We all need to practice emotional first aid</a>
+          <p>a TED talk from Guy Winch about why emotional health and hygiene are just as important as physical health and hygiene.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="podcasts" class="row margin-bot-full">
+    <div class="column">
+      <h3>podcasts</h3>
+      <ul>
+        <li>
+          <a href="http://www.sleepwithmepodcast.com/" title="Sleep With Me Podcast" class="button button-white button-clear resources">Sleep With Me Podcast</a>
+          <p>the podcast that puts you to sleep</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="uplift" class="row margin-bot-full">
+    <div class="column">
+      <h3>uplift &amp; positivity</h3>
+      <ul>
+        <li>
+          <a href="http://calmingmanatee.com/" title="Calming Manatee" class="button button-white button-clear resources">Calming Manatee</a>
+          <p>random slides of manatees with phrases as if they were your best parent-type friend</p>
+        </li>
+        <li>
+          <a href="https://www.montereybayaquarium.org/animals-and-experiences/live-web-cams" title="Montery Bay Aquarium Live Cams" class="button button-white button-clear resources">Montery Bay Aquarium Live Cams</a>
+          <p>live feeds of peaceful jellyfish, waving kelp forests and other sea life</p>
+        </li>
+        <li>
+          <a href="https://www.nps.gov/dena/learn/photosmultimedia/webcams-pups.htm" title="Webcam: Sled Dog Puppies" class="button button-white button-clear resources">Webcam: Sled Dog Puppies</a>
+          <p>sled dog puppies at the Historic Park Kennels of the Denali National Park and Preserve, Alaska, United States</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="journaling" class="row margin-bot-full">
+    <div class="column">
+      <h3>journaling</h3>
+      <ul>
+        <li>
+          <a href="https://750words.com" title="750 Words" class="button button-white button-clear resources">750 Words</a>
+          <p>online, always private, blank page for anything you want to say. the site is built around The Artist's Way's practice of free-association writing first thing in the morning. exports are available.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="offline" class="row margin-bot-full">
+    <div class="column">
+      <h3>offline activities</h3>
+      <ul>
+        <li>
+          <a href="http://www.bicyclecards.com/how-to-play/solitaire/" title="Solitaire" class="button button-white button-clear resources">Solitaire</a>
+          <p>often called "Patience," more than 150 Solitaire games have been devised</p>
+        </li>
+        <li>
+          <a href="http://www.craftyarncouncil.com/getting_started.php3" title="Knitting and Crochet: Getting Started" class="button button-white button-clear resources">Knitting and Crochet</a>
+          <p>the Craft Yarn Council guide to getting started with knitting and crochet</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="tools-apps" class="row margin-bot-full">
+    <div class="column">
+      <h3>general apps &amp; tools</h3>
+      <ul>
+        <li>
+          <a href="https://justgetflux.com/" title="f.lux" class="button button-white button-clear resources">f.lux</a>
+          <p>OS X app makes the color of your computer's display adapt to the time of day, warm at night and like sunlight during the day</p>
+        </li>
+        <li>
+          <a href="http://selfcontrolapp.com/" title="SelfControl" class="button button-white button-clear resources">SelfControl</a>
+          <p>a free Mac application to help you avoid distracting websites</p>
+        </li>
+        <li>
+          <a href="https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji" title="StayFocusd" class="button button-white button-clear resources">StayFocusd</a>
+          <p>a Google Chrome extension that limits the amount of time that you can spend on time-wasting websites</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="noise" class="row margin-bot-full">
+    <div class="column">
+      <h3>noise generators</h3>
+      <ul>
+        <li>
+          <a href="https://www.noisli.com/" title="Nois.li" class="button button-white button-clear resources">Noisli</a>
+          <p>a background noise generator with built-in text editor</p>
+        </li>
+        <li>
+          <a href="https://mynoise.net/noiseMachines.php" title="MyNoise" class="button button-white button-clear resources">MyNoise</a>
+          <p>a site with a very wide variety of noise generators, ranging from nature sounds and industrial noises to soundscapes and simulated voices</p>
+        </li>
+        <li>
+          <a href="http://rainymood.com/" title="Rainy Mood" class="button button-white button-clear resources">Rainy Mood</a>
+          <p>a 30-minute thunderstorm loop, online and an app</p>
+        </li>
+        <li>
+          <a href="http://tide.moreless.io/en/" title="Tide" class="button button-white button-clear resources">Tide</a>
+          <p>a combination white-noise and pomodoro-timer app for iOS. soothing sounds &amp; periodic "take a break" reminders</p>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/watch?v=naOBXOdLiig" title="Sound of Rain" class="button button-white button-clear resources">Sound of Rain</a>
+          <p>8 hour long video that highlights the sound of rain</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section id="gaming" class="row margin-bot-full">
+    <div class="column">
+      <h3>helpful games</h3>
+      <ul>
+        <li>
+          <a href="https://habitica.com" title="Habitica" class="button button-white button-clear resources">Habitica</a>
+          <p>a free habit building and productivity app that treats your real life like a game</p>
+        </li>
+        <li>
+          <a href="https://www.superbetter.com/" title="Super Better" class="button button-white button-clear resources">Super Better</a>
+          <p>gamify your life to improve your mood and conquer your challenges</p>
+        </li>
+        <li>
+          <a href="http://getpauseapp.com/" title="Pause" class="button button-white button-clear resources">Pause</a>
+          <p>triggers the body’s ‘rest and digest’ response by slowly and continuously moving your fingertip on the screen</p>
+        </li>
+        <li>
+          <a href="" title="queer trans mentally ill power fantasy" class="button button-white button-clear resources">queer trans mentally ill power fantasy</a>
+          <p>a Twine game for queer trans mentally ill people who want to live out the fantasy of a world that is both kind and fucking awesome.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <footer class="row">
+    <div class="column center">
+      <p>
+        created with love by <a href="http://jenniferlynparsons.net" title="Jennifer Lyn Parsons" class="reverse">Jennifer Lyn Parsons</a> with help from <a href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md" title="Site credits" class="reverse">some awesome people</a>.
+      </p>
+    </div>
+  </footer>
 
-    <script type="text/javascript">
-    document.addEventListener("DOMContentLoaded", function() {
+</div>
 
-        document.getElementById('inverter').onclick = function() {
+<script type="text/javascript">
+document.addEventListener("DOMContentLoaded", function() {
 
-            var className = ' ' + document.body.className + ' ';
+  document.getElementById('inverter').onclick = function() {
 
-            if ( ~className.indexOf(' invert ') ) {
-                document.body.className = className.replace(' invert ', ' ');
-            } else {
-                document.body.className += ' invert';
-            }
-        }
-    });
-    </script>
-    <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    var className = ' ' + document.body.className + ' ';
 
-    ga('create', 'UA-84217502-1', 'auto');
-    ga('send', 'pageview');
+    if ( ~className.indexOf(' invert ') ) {
+      document.body.className = className.replace(' invert ', ' ');
+    } else {
+      document.body.className += ' invert';
+    }
+  }
+});
+</script>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-    </script>
+ga('create', 'UA-84217502-1', 'auto');
+ga('send', 'pageview');
+
+</script>
 </body>
 </html>
