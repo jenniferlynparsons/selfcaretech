@@ -33,3 +33,6 @@ these folks have submitted helpful links to improve the directory:
 * [Jeseekia Vaughn](http://metadevgirl.com)
 * [@kmkrn](https://github.com/kmkrn)
 * [@mchlltt](http://github.com/mchlltt/)
+* [Kate Bladow](https://github.com/kbladow)
+* [Bob Massarczyk](http://www.b2m9.com)
+* [@katie7r](https://github.com/katie7r)
