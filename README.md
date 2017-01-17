@@ -9,6 +9,12 @@ not a developer or involved in tech? you still deserve to take time for self-car
 
 have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md)!
 
+# more meta stuff
+
+[I won’t tell you to stop working, but I can try to help you not burn out](https://medium.com/@pixelpaperyarn/i-wont-tell-you-to-stop-working-but-i-can-try-to-help-you-not-burn-out-2730a713e543#.lgwmsdpun) - i wrote a post on medium to dig a little deeper into why i made this site.
+
+[selfcare_tech](https://twitter.com/selfcare_tech) - i made a twitter bot if you'd like to follow it. there are reminders for selfcare practice and the occasional link as well.
+
 ## credits
 
 much thanks goes to these awesome people for helping me hammer out some very important details at the start of this project:
