@@ -36,3 +36,5 @@ these folks have submitted helpful links to improve the directory:
 * [Kate Bladow](https://github.com/kbladow)
 * [Bob Massarczyk](http://www.b2m9.com)
 * [@katie7r](https://github.com/katie7r)
+* [Jim Withington](https://unfocused.tech/)
+* [JR](http://www.jaejeb.com/)
