@@ -2,13 +2,12 @@
 
 Wonderful! Please just fork the repo and submit a copy of this file to the submissions folder, following the template below:
 
-**Site name:** 
+**Site name:The purple Buddha Project
 
-**URL:**
-
+**URL:http://purplebuddhaproject.tumblr.com/
 **Short description:**
 
-**Your name:**  
+**Your name:littlebearpooky
 (if you'd like to be credited)
 
 **Your website:**  
