@@ -1,15 +1,14 @@
-# Want to submit a link?
-
-Wonderful! Please just fork the repo and submit a copy of this file to the submissions folder, following the template below:
-
 **Site name:** 
+PACIFICA
 
-**URL:**
+**URL:** 
+https://www.thinkpacifica.com/
 
-**Short description:**
+**Short description:** 
+mood and healthy behavior tracking, meditations and other activities to help you cope with stress or anxiety 
 
 **Your name:**  
-(if you'd like to be credited)
+JR 
 
 **Your website:**  
-(if you'd like to be linked)
+http://www.jaejeb.com/
