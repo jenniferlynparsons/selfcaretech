@@ -44,3 +44,4 @@ these folks have submitted helpful links to improve the directory:
 * [@katie7r](https://github.com/katie7r)
 * [Jim Withington](https://unfocused.tech/)
 * [JR](http://www.jaejeb.com/)
+* [Sandra Friesen](https://www.linkedin.com/in/semer/)
