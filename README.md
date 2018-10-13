@@ -48,3 +48,9 @@ these folks have submitted helpful links to improve the directory:
 * [JR](http://www.jaejeb.com/)
 * [Sandra Friesen](https://www.linkedin.com/in/semer/)
 * [Claire Lundeby](https://github.com/clairealyssa)
+
+---
+
+want to say thanks? 
+
+[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/P5P25E22)
