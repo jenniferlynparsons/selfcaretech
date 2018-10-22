@@ -1,4 +1,4 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) 
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # selfcare.tech
 a repository of self-care resources
@@ -44,13 +44,16 @@ these folks have submitted helpful links to improve the directory:
 * [Kate Bladow](https://github.com/kbladow)
 * [Bob Massarczyk](http://www.b2m9.com)
 * [@katie7r](https://github.com/katie7r)
-* [Jim Withington](https://unfocused.tech/)
+* [Jim Withington](http://hardlikealgebra.com/)
 * [JR](http://www.jaejeb.com/)
 * [Sandra Friesen](https://www.linkedin.com/in/semer/)
 * [Claire Lundeby](https://github.com/clairealyssa)
+* [Nina Zakharenko](http://nnja.io)
+* [Carolyn Stransky](https://twitter.com/carolstran)
+*
 
 ---
 
-want to say thanks? 
+want to say thanks?
 
 [![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/P5P25E22)
