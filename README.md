@@ -50,7 +50,10 @@ these folks have submitted helpful links to improve the directory:
 * [Claire Lundeby](https://github.com/clairealyssa)
 * [Nina Zakharenko](http://nnja.io)
 * [Carolyn Stransky](https://twitter.com/carolstran)
-*
+* [jmf.codes](https://jmf.codes)
+* [madi](http://bff.fm/shows/chemical-x)
+* [Borche](https://jinglow.com)
+
 
 ---
 
