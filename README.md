@@ -26,9 +26,9 @@ much thanks goes to these awesome people for helping me hammer out some very imp
 * [Sarah Withee](https://twitter.com/geekygirlsarah)
 * and the helpful folks of [We All JS](http://wealljs.org/)
 
-thanks to [@mchlltt](http://github.com/mchlltt/) for helping fix things up!
+thanks to [Mich Elliott](http://github.com/mchlltt/) and [Damian Senn](https://github.com/topaxi) for helping fix things up!
 
-build using [milligram](https://milligram.github.io/), [tota11y](http://khan.github.io/tota11y/), and my own two hands.
+build using [picnic](https://picnicss.com/), [tota11y](http://khan.github.io/tota11y/), and my own two hands.
 
 ## submissions
 
@@ -53,7 +53,8 @@ these folks have submitted helpful links to improve the directory:
 * [jmf.codes](https://jmf.codes)
 * [madi](http://bff.fm/shows/chemical-x)
 * [Borche](https://jinglow.com)
-
+* [Daragh Byrne](https://www.codingmindfully.com)
+* [Brandon 'LinuxLiaison' Nolet](https://linuxliaison.org)
 
 ---
 
