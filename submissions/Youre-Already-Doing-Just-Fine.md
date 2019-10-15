@@ -8,4 +8,4 @@ Your name:
 Jim Withington
 
 Your website:
-http://hardlikealgebra.com/
+https://www.jwithy.com

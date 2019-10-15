@@ -14,5 +14,4 @@ This episode of Syntax is entitled _Preventing and Dealing with Burnout in Web D
 Jim Withington
 
 **Your website:**  
-http://jw.micro.blog/
-http://www.jimwithington.com/
+https://www.jwithy.com
