@@ -44,7 +44,7 @@ these folks have submitted helpful links to improve the directory:
 * [Kate Bladow](https://github.com/kbladow)
 * [Bob Massarczyk](http://www.b2m9.com)
 * [@katie7r](https://github.com/katie7r)
-* [Jim Withington](http://hardlikealgebra.com/)
+* [Jim Withington](https://www.jwithy.com)
 * [JR](http://www.jaejeb.com/)
 * [Sandra Friesen](https://www.linkedin.com/in/semer/)
 * [Claire Lundeby](https://github.com/clairealyssa)
