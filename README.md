@@ -55,6 +55,7 @@ these folks have submitted helpful links to improve the directory:
 * [Borche](https://jinglow.com)
 * [Daragh Byrne](https://www.codingmindfully.com)
 * [Brandon 'LinuxLiaison' Nolet](https://linuxliaison.org)
+* [Jess Unrein](https://jessunrein.com)
 
 ---
 
