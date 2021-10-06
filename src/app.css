@@ -1,0 +1,340 @@
+body {
+  padding: 10px 20px;
+  max-width: 960px;
+  width: 100%;
+  margin: 100px auto 500px;
+  background: #0080a7;
+  color: #fff;
+}
+
+@media screen and (prefers-reduced-motion: no-preference) {
+  body {
+    scroll-behavior: smooth;
+  }
+}
+
+svg {
+  max-height: 150px;
+  max-width: 90%;
+  margin: 0 auto;
+  fill: #fff;
+}
+
+nav svg {
+  max-height: 40px;
+  max-width: 40px;
+  fill: #0080a7;
+}
+
+nav,
+nav a {
+  color: #0080a7;
+}
+
+.menu select {
+  width: auto;
+}
+
+hr {
+  margin-top: 48px;
+  border-top: 0;
+  border-bottom: 1px solid #fff;
+}
+
+section,
+.meta,
+footer {
+  padding-top: 80px;
+}
+
+.card {
+  height: 100%;
+  color: #333;
+}
+
+button,
+.button {
+  background-color: #0080a7;
+}
+
+nav,
+nav a,
+.card a {
+  color: #0080a7;
+}
+
+nav a:hover,
+.card a:hover {
+  color: #d42600;
+}
+
+nav a.button:hover {
+  color: #fff;
+}
+
+.meta a,
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.meta a.button {
+  background-color: #fff;
+  color: #0080a7;
+  text-decoration: none;
+}
+
+.meta a.button:hover {
+  background-color: #37b4da;
+  color: #0080a7;
+  text-decoration: none;
+}
+
+@media only screen and (max-device-width: 600px) {
+  nav span {
+    display: none;
+  }
+}
+
+/* @media only screen and (max-device-width: 800px)  {
+  html{
+    font-size: 100%;
+  }
+}
+
+body{
+  width: 100%;
+  height: 100%;
+  background: #0080a7;
+  color: #fff;
+  padding: 4rem 2rem;
+}
+
+body.invert{
+  color: #0080a7;
+  background: #fff;
+}
+
+@media only screen and (min-device-width: 768px) {
+  .container{
+    max-width: 600px;
+  }
+}
+
+/* corner ribbon https://codepen.io/eode9/pen/twkKm 
+
+.corner-ribbon{
+  width: 175px;
+  background: #d42600;
+  position: absolute;
+  top: 30px;
+  left: -40px;
+  text-align: center;
+  line-height: 30px;
+  letter-spacing: 1px;
+  color: #fff;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  /*font-size: 1.24rem;
+}
+
+@media only screen and (max-device-width: 800px)  {
+  .corner-ribbon{
+    width: 430px;
+    top: 60px;
+    line-height: 70px;
+    left: -110px;
+    font-size: 2rem;
+  }
+}
+
+.corner-ribbon.shadow{
+  box-shadow: 0 0 3px rgba(0,0,0,.3);
+}
+
+
+/* button variation 
+
+.button{
+  font-size: 2.4rem;
+  white-space: normal;
+  text-align: left;
+  height: auto;
+  max-width: 93%;
+  background-color: #fff;
+  border-color: #fff;
+  color:#0080a7;
+}
+.button.button-outline {
+  color: #fff;
+}
+.button.button-outline:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color:#0080a7;
+}
+.button.button-clear {
+  color: #fff;
+}
+.button.button-clear:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color:#0080a7;
+}
+.button.button-clear.resources{
+  padding: 0 1rem;
+}
+
+body.invert .button.button-outline {
+  background-color: #fff;
+  border-color: #0080a7;
+  color: #0080a7;
+}
+body.invert .button.button-outline:hover {
+  background-color: #0080a7;
+  border-color: #0080a7;
+  color:#fff;
+}
+body.invert .button.button-clear {
+  color: #0080a7;
+}
+body.invert .button.button-clear:hover {
+  background-color: #0080a7;
+  border-color: #0080a7;
+  color:#fff;
+}
+
+li {
+  height: auto;
+  margin-bottom: 0;
+}
+
+li .button {
+  vertical-align: middle;
+  margin-bottom: 0;
+}
+
+@media only screen and (max-device-width: 600px)  {
+  ul{
+    list-style: none;
+  }
+  li{
+    margin-bottom: 1rem;
+  }
+  .button.button-clear.resources {
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    padding: 1rem 1.8rem;
+    display: block;
+    height: auto;
+  }
+  .button {
+    text-align: center;
+    max-width: 100%;
+  }
+}
+
+
+/* utilities and overwrites 
+
+.hidden{
+  display: none;
+}
+
+.margin-bot-full{
+  margin-bottom: 40px;
+}
+
+.margin-bot-half{
+  margin-bottom: 20px;
+}
+
+.center{
+  text-align: center;
+}
+
+a.reverse{
+  color: #fff;
+  text-decoration: underline;
+}
+a.reverse:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+body.invert a.reverse{
+  color: #0080a7;
+  text-decoration: underline;
+}
+body.invert a.reverse:hover{
+  color: #0080a7;
+  text-decoration: none;
+}
+
+/* header styling 
+
+header h1{
+  font-family: 'Baloo Paaji', cursive;
+}
+header h2{
+  font-size: 2.4rem;
+}
+header svg {
+  max-height: 150px;
+  max-width: 90%;
+  margin: 0 auto;
+  fill: #fff;
+}
+body.invert header svg{
+  fill: #0080a7
+}
+
+/* navigation styling 
+
+#navigation{
+  border:1px solid #fff;
+  border-radius: .4rem;
+  font-size: 2rem;
+  margin-bottom: 15rem;
+}
+body.invert #navigation{
+  border:1px solid #0080a7;
+}
+#navigation > div{
+  padding: 1.48rem;
+  margin-bottom: 0;
+}
+#navigation a{
+  display: inline-block;
+  padding:0 .48rem;
+}
+
+/* body styling 
+
+h2, h3, h4, h5, h6{
+  text-align: center;
+}
+
+/* footer styling 
+
+footer p{
+  font-size: 1.8rem;
+}
+
+
+@media only screen and (max-device-width: 600px)  {
+  header h2{
+    font-size: 3.4rem;
+  }
+  .column.center{
+    font-size: 2rem;
+  }
+  .column.center br{
+    display: none;
+  }
+  #navigation a{
+    font-size: 2.4rem;
+    line-height: 6rem;
+  }
+} */
