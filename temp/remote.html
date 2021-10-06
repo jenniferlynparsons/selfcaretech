@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>selfcare.tech - developer resources for self-care</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Paaji"
+      rel="stylesheet"
+    />
+    <!-- Picnic CSS minified -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/picnic@6.5.0/picnic.min.css"
+    />
+    <link rel="stylesheet" href="css/main.css" media="screen" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="icons/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="icons/favicon-16x16.png"
+    />
+    <link rel="manifest" href="icons/manifest.json" />
+    <link rel="mask-icon" href="icons/safari-pinned-tab.svg" color="#0080a7" />
+    <link rel="shortcut icon" href="icons/favicon.ico" />
+    <meta name="msapplication-config" content="icons/browserconfig.xml" />
+    <meta name="theme-color" content="#0080a7" />
+    <script
+      async
+      defer
+      data-domain="selfcare.tech"
+      src="https://plausible.io/js/plausible.js"
+    ></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="brand">
+        <a href="https://selfcare.tech/">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 64 64"
+            enable-background="new 0 0 64 64"
+          >
+            <g>
+              <path
+                d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"
+              />
+              <path
+                d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"
+              />
+              <path
+                d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"
+              />
+              <path
+                d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"
+              />
+              <path
+                d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"
+              />
+              <path
+                d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"
+              />
+              <path
+                d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"
+              />
+              <path
+                d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"
+              />
+              <path
+                d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"
+              />
+            </g>
+          </svg>
+          <span>selfcare.tech</span>
+        </a>
+      </div>
+      <div class="menu">
+        <a href="https://selfcare.tech/">Back to main page &raquo;</a>
+      </div>
+    </nav>
+
+    <div class="container">
+      <header>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 64 64"
+          enable-background="new 0 0 64 64"
+        >
+          <g>
+            <path
+              d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"
+            />
+            <path
+              d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"
+            />
+            <path
+              d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"
+            />
+            <path
+              d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"
+            />
+            <path
+              d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"
+            />
+            <path
+              d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"
+            />
+            <path
+              d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"
+            />
+            <path
+              d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"
+            />
+            <path
+              d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"
+            />
+          </g>
+        </svg>
+        <h1>selfcare.tech</h1>
+        <p>a repository of self-care resources for developers &amp; others</p>
+      </header>
+      <div class="meta flex one two-600">
+        <div class="full">
+          <h2>About this page</h2>
+          <p>
+            The COVID-19 virus has changed the face of work for many people,
+            most of whom have never worked from home before. This page is a
+            resource for those who are new to the world of remote work.
+          </p>
+          <hr />
+        </div>
+        <div class="row margin-bot-full">
+          <h2>Contributing to the site</h2>
+          <p>
+            Have a link to share? Submit a pull request!
+            <br />
+            This project is intended to be a living, breathing resource.
+          </p>
+          <a
+            class="button"
+            href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md"
+          >
+            contribute a link
+          </a>
+        </div>
+      </div>
+
+      <!-- link template:
+    <div>
+      <article class="card">
+        <header>
+          <a href="" class="" rel="noopener noreferrer" target="_blank"> &raquo;</a>
+        </header>
+        <p></p>
+      </article>
+    </div>
+  -->
+      <section id="teams">
+        <h2>Guides for teams</h2>
+        <div class="flex grow one two-600 three-800">
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://github.com/hugo53/awesome-RemoteWork"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Awesome Remote Work &raquo;
+                </a>
+              </header>
+              <p>
+                Resources for remote workers: approaches, hiring page, remote
+                life and more.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://glitch.com/remote/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Glitch for Remote Work &raquo;
+                </a>
+              </header>
+              <p>
+                Glitch runs remotely and has developed this guide to help others
+                do the same.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://basecamp.com/books/remote"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  REMOTE: Office Not Required &raquo;
+                </a>
+              </header>
+              <p>
+                Basecamp has literally written the book on the subject of remote
+                work.
+              </p>
+            </article>
+          </div>
+
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://laurieontech.com/posts/remote-work/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Remote Work Tips for Teams &raquo;
+                </a>
+              </header>
+              <p>
+                Laurie Barth focuses on some of the things teams, and their
+                members might benefit from if they’re not used to having a
+                remote workforce.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://about.gitlab.com/company/culture/all-remote/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >Remote Playbook from the world's largest all-remote company
+                  &raquo;</a
+                >
+              </header>
+              <p>
+                Gitlab has put together a playbook of tried and tested tactics
+                for building remote fluency in your organization
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://miro.com/guides/remote-work/" class="" rel="noopener noreferrer" target="_blank">The ultimate guide to remote work &raquo;</a>
+              </header>
+              <p>For a while, we've been hearing that remote work and therefore remote jobs are the trend of the future. However,  it’s clear: “remote work” describes the way so many of us are already working every day. </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://www.toptal.com/remote-work-playbook" class="" rel="noopener noreferrer" target="_blank">The Suddenly Remote Playbook &raquo;</a>
+              </header>
+              <p>A Playbook for Sustaining an Enterprise-grade Remote Work Environment</p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="teams">
+        <h2>Guides for managers</h2>
+        <div class="flex grow one two-600 three-800">
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://stackoverflow.blog/2020/11/05/how-to-lead-with-clarity-and-empathy-in-the-remote-world/" class="" rel="noopener noreferrer" target="_blank">How to lead with clarity and empathy in the remote world &raquo;</a>
+              </header>
+              <p>In this newly remote world, it can be difficult to figure out the best ways to support and motivate your team.</p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://hbr.org/2020/03/a-guide-to-managing-your-newly-remote-workers" class="" rel="noopener noreferrer" target="_blank">A Guide to Managing Your (Newly) Remote Workers &raquo;</a>
+              </header>
+              <p>With the Covid-19 epidemic, many employees — and their managers — are finding themselves working out of the office and separated from each other for the first time. </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://www.glintinc.com/blog/remote-work-a-managers-guide-for-better-check-ins/" class="" rel="noopener noreferrer" target="_blank">Remote Work: A Manager’s Guide for Better Check-ins &raquo;</a>
+              </header>
+              <p>If you’re a manager, you’ve been trusted with a big opportunity: actively supporting your team’s employee engagement, so that people can bring their best selves to work and do their best work. </p>
+            </article>
+          </div>
+        </div>
+      </section>
+      <section id="employees">
+        <h2>Guides for employees</h2>
+        <div class="flex grow one two-600 three-800">
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://twitter.com/hhavrilesky/status/1237414026763587584"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Heather Havrilesky Twitter thread &raquo;
+                </a>
+              </header>
+              <p>
+                Heather Havrilesky's general tips for successfully working
+                remotely.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://austinkleon.com/2020/03/11/a-working-from-home-manual-in-disguise/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  A working from home manual in disguise &raquo;
+                </a>
+              </header>
+              <p>
+                Austin Kleon's book "Keep Going" is helpful for those working
+                from home and here he also provides a few bits of wisdom from
+                other folks from history.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://medium.com/swlh/effective-tips-for-working-remotely-23cc290a8c08"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Effective Tips for Working Remotely &raquo;</a
+                >
+              </header>
+              <p>
+                Companies rarely explain effective ways to work remotely. Use
+                these suggestions to get you started.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://novoresume.com/career-blog/remote-work"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                  >The 2021 Complete Guide to Remote Work &raquo;</a
+                >
+              </header>
+              <p>
+                Going remote, isn’t as easy as you might think. It’s a difficult
+                transition for everyone, whether you’re an employee looking to
+                improve productivity, manager looking for tools to better run
+                their team, or a job-seeker looking for a remote position.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://www.moo.com/blog/business-tips/5-self-care-habits-for-homeworkers"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  5 self-care habits to get into if you work from home &raquo;
+                </a>
+              </header>
+              <p>
+                Working at home means you’ve got total control over your work
+                environment – so why not make it into a VIP experience with
+                these daily self-care habits?
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://blog.cake.hr/working-home-complete-guide-remote-work/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Working from Home 101 &raquo;
+                </a>
+              </header>
+              <p>
+                "With today’s advances in technology allowing those with a
+                stable internet connection and proper resources the means to
+                work remotely, employers and employees alike are opting to take
+                up this more flexible approach to working"
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a
+                  href="https://stackoverflow.blog/2020/03/12/working-from-home-tips-from-our-experienced-remote-employees/"
+                  class=""
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  Working from home tips from our experienced remote employees
+                  &raquo;
+                </a>
+              </header>
+              <p>
+                StackOverflow asked some of their veteran remote workers, folks
+                who have spent years doing this, for tips on how to make remote
+                work effective, enjoyable, and sustainable.
+              </p>
+            </article>
+          </div>
+          <div>
+            <article class="card">
+              <header>
+                <a href="https://remotehabits.com/" class="" rel="noopener noreferrer" target="_blank">RemoteHabits &raquo;</a>
+              </header>
+              <p>Hi! Welcome to RemoteHabits, a website all about working remotely, like how to get a remote job and good remote work routines. </p>
+            </article>
+          </div>
+
+        </div>
+      </section>
+
+      <footer class="">
+        <div class="">
+          <p>
+            created with love by
+            <a href="http://jenniferlynparsons.net" class="reverse"
+              >Jennifer Lyn Parsons</a
+            >
+            with help from
+            <a
+              href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md#credits"
+              class="reverse"
+            >
+              some awesome people
+            </a>
+            .
+          </p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
