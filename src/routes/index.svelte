@@ -1,117 +1,4 @@
 <div class="container">
-	<header>
-		<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" enable-background="new 0 0 64 64">
-			<g>
-				<path
-					d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"
-				/>
-				<path
-					d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"
-				/>
-				<path
-					d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"
-				/>
-				<path
-					d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"
-				/>
-				<path
-					d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"
-				/>
-				<path
-					d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"
-				/>
-				<path
-					d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"
-				/>
-				<path
-					d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"
-				/>
-				<path
-					d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"
-				/>
-			</g>
-		</svg>
-		<h1>selfcare.tech</h1>
-		<p>a repository of self-care resources for developers &amp; others</p>
-	</header>
-	<div class="meta flex one two-600">
-		<div class="full">
-			<strong>RECENT CHANGES 1.29.21: New remote and self care resources</strong>
-			<p>
-				I've created a new page for those of you working remotely for the first time, or those who
-				need some new perspectives on self care as remote workers.
-			</p>
-			<a class="button" href="https://selfcare.tech/remote.html"> Remote Work Resources </a>
-
-			<hr />
-			<h2>About this site</h2>
-			<p>
-				A while back I had a minor wake up call. I wasn't taking care of myself and and my body told
-				me so in no uncertain terms. The experience started me thinking about how important self
-				care is, and how little we pay attention to it in the tech community.
-			</p>
-			<p>
-				So often I see developers ignoring their basic needs for rest and refreshment. I started
-				this site to provide a central location to find links that will help us all take better care
-				of ourselves.
-			</p>
-			<p>
-				Not a developer or involved in tech? You deserve to take time for self-care, too! You don't
-				have to be in tech to contribute and use these links.
-			</p>
-			<p>
-				I also wrote a post on medium to dig a little deeper into why I made this site:
-				<a
-					href="https://medium.com/@pixelpaperyarn/i-wont-tell-you-to-stop-working-but-i-can-try-to-help-you-not-burn-out-2730a713e543#.lgwmsdpun"
-					rel="noopener noreferrer"
-				>
-					I won’t tell you to stop working, but I can try to help you not burn out
-				</a>
-			</p>
-			<hr />
-		</div>
-		<div class="row margin-bot-full">
-			<h2>Contributing to the site</h2>
-			<p>
-				Have a link to share? Submit a pull request!
-				<br />
-				This project is intended to be a living, breathing resource.
-			</p>
-			<a
-				class="button"
-				href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md"
-			>
-				contribute a link
-			</a>
-		</div>
-		<div>
-			<div class="column center">
-				<h2>selfcare.tech bots</h2>
-				<p>
-					I made a few bots if you'd like to follow them. There are reminders for selfcare practice
-					and the occasional link as well.
-				</p>
-				<a
-					href="https://twitter.com/selfcare_tech"
-					class="button"
-					rel="noopener noreferrer"
-					target="_blank"
-				>
-					twitter
-				</a>
-
-				<a
-					href="https://botsin.space/@selfcare"
-					class="button"
-					rel="noopener noreferrer"
-					target="_blank"
-				>
-					mastodon
-				</a>
-			</div>
-		</div>
-	</div>
-
 	<!-- link template:
     <div>
       <article class="card">
@@ -122,6 +9,7 @@
       </article>
     </div>
   -->
+
 	<section id="general">
 		<h2>general self-care</h2>
 		<div class="flex grow one two-600 three-800">
@@ -324,11 +212,9 @@
 						>
 					</header>
 					<p>
-						LemonAid offers an active, supportive community where you can unload your struggles and
-						share successes anonymously. they believe in openly speaking about mental health,
-						trauma, human rights and professional challenges. as of now, the community is open for
-						those who are female-identifying, but they are working to expand that. check out the
-						website, or just join the [Slack Group](https://nicole64.typeform.com/to/MKsY8J).
+						LemonAid offers an active, supportive community for women-identifying people where you
+						can unload your struggles and share successes anonymously. they believe in openly
+						speaking about mental health, trauma, human rights and professional challenges.
 					</p>
 				</article>
 			</div>
@@ -3142,20 +3028,4 @@
 			</div>
 		</div>
 	</section>
-	<footer class="">
-		<div class="">
-			<p>
-				created with love by
-				<a href="http://jenniferlynparsons.net" class="reverse">Jennifer Lyn Parsons</a>
-				with help from
-				<a
-					href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md#credits"
-					class="reverse"
-				>
-					some awesome people
-				</a>
-				.
-			</p>
-		</div>
-	</footer>
 </div>
