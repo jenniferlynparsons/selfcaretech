@@ -22,12 +22,36 @@ const { title, description = "A repository of self-care resources for developers
     <link rel="manifest" href="/manifest.json">
     <title>{title}</title>
   </head>
-  <body class="bg-selfcare-blue text-white min-h-screen p-5 max-w-site mx-auto" style="margin-top: 100px; margin-bottom: 500px;">
-    <!-- Simple Navigation matching original -->
-    <nav class="absolute top-0 left-0 right-0 flex justify-between items-center p-5">
-      <div class="flex items-center space-x-2">
-        <a href="/" class="flex items-center space-x-2 text-white">
-          <svg class="w-10 h-10 max-h-10 max-w-10 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <body class="bg-white text-gray-900 min-h-screen">
+    <!-- Header Section with blue background -->
+    <header class="bg-selfcare-blue text-white">
+      <!-- Simple Navigation matching original -->
+      <nav class="flex justify-between items-center p-5 max-w-site mx-auto">
+        <div class="flex items-center space-x-2">
+          <a href="/" class="flex items-center space-x-2 text-white">
+            <svg class="w-10 h-10 max-h-10 max-w-10 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+              <g>
+                <path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/>
+                <path d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"/>
+                <path d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"/>
+                <path d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"/>
+                <path d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"/>
+                <path d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"/>
+                <path d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"/>
+                <path d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"/>
+                <path d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"/>
+              </g>
+            </svg>
+            <span class="text-white hidden sm:inline">selfcare.tech</span>
+          </a>
+        </div>
+        <CategoryLinks />
+      </nav>
+
+      <!-- Hero Section - only on homepage -->
+      {title === "selfcare.tech" && (
+        <div class="text-center py-12 px-5 max-w-site mx-auto">
+          <svg class="max-h-36 max-w-full mx-auto mb-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
             <g>
               <path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/>
               <path d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"/>
@@ -40,46 +64,31 @@ const { title, description = "A repository of self-care resources for developers
               <path d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"/>
             </g>
           </svg>
-          <span class="text-white hidden sm:inline">selfcare.tech</span>
-        </a>
-      </div>
-      <CategoryLinks />
-    </nav>
+          <h1 class="text-5xl text-white mb-3">selfcare.tech</h1>
+          <p class="text-white">a repository of self-care resources for developers &amp; others</p>
+        </div>
+      )}
+    </header>
 
-    <!-- Hero Section - only on homepage -->
-    {title === "selfcare.tech" && (
-      <div class="text-center mb-12">
-        <svg class="max-h-36 max-w-full mx-auto mb-6 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-          <g>
-            <path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/>
-            <path d="m60 18.5c-.6-1.9-1.6-3.6-3-5-1.3-1.4-3-2.5-4.7-3.2-.9-.4-1.8-.6-2.7-.8-.5-.1-.9-.1-1.4-.2-.5 0-.9 0-1.4 0l1.2.6c.4.2.8.4 1.2.6.8.4 1.6.8 2.3 1.3 1.5.9 2.8 2 4 3.2 1.2 1.2 2.1 2.6 3 4.2.4.8.8 1.6 1.1 2.4.2.4.3.9.5 1.3l.5 1.3c.1-.5.1-1 .1-1.4 0-.5 0-1-.1-1.4-.1-1-.3-2-.6-2.9"/>
-            <path d="m62 15.8c-.1-.7-.2-1.4-.4-2.1-.4-1.4-1.2-2.7-2.2-3.8-1-1.1-2.2-1.9-3.5-2.3-.7-.2-1.3-.4-2-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1.3.2.6.3.9.5.2.1.5.3.8.4.6.3 1.1.6 1.6 1 1 .7 2 1.5 2.8 2.3.8.9 1.5 1.9 2.2 3 .3.5.6 1.1.9 1.7.1.3.3.6.4.9.1.3.3.6.4 1 .1-.4.1-.7.1-1.1 0-.3 0-.7 0-1"/>
-            <path d="m4.3 21.6c.3-.8.7-1.7 1.1-2.4.8-1.6 1.8-3 3-4.2 1.2-1.2 2.5-2.3 4-3.2.7-.5 1.5-.9 2.3-1.3.4-.2.8-.4 1.2-.6l1.2-.6c-.5 0-.9 0-1.4 0-.5 0-.9.1-1.4.2-.9.2-1.8.4-2.7.8-1.7.7-3.3 1.8-4.6 3.2-1.3 1.4-2.4 3.1-3 5-.3.9-.5 1.9-.6 2.8-.1.5-.1 1-.1 1.4 0 .5 0 1 .1 1.4l.5-1.3c.1-.4.2-.8.4-1.2"/>
-            <path d="m6 11.4c.8-.9 1.8-1.7 2.8-2.4.5-.3 1.1-.7 1.6-1 .3-.2.6-.3.9-.5.3-.2.6-.3.9-.5-.3 0-.7-.1-1-.1-.3 0-.7 0-1 .1-.7.1-1.3.3-2 .5-1.4.6-2.6 1.4-3.6 2.4-1 1.1-1.8 2.4-2.2 3.8-.2.7-.3 1.4-.4 2.1 0 .4 0 .7 0 1.1 0 .4 0 .7.1 1.1.1-.3.3-.6.4-1 .2-.4.3-.7.5-1 .3-.6.6-1.2.9-1.7.6-1.1 1.3-2.1 2.1-2.9"/>
-            <path d="m7.8 40.5l-.1.2c.5 1.5 1.3 2.7 2.1 3.9.8 1.2 1.8 2.2 2.8 3.1 1 .9 2.1 1.8 3.3 2.6 1.2.8 2.5 1.4 4 1.8l.1-.2c-2-2-4-3.9-6-5.8-2.1-1.8-4.1-3.8-6.2-5.6"/>
-            <path d="m3.6 43.5l-.1.2c.7 1.7 1.6 3.1 2.6 4.4 1 1.3 2.1 2.5 3.3 3.6 1.2 1.1 2.4 2.1 3.8 3.1 1.4.9 2.8 1.8 4.5 2.3l.1-.2c-2.3-2.3-4.7-4.5-7-6.8-2.4-2.2-4.8-4.5-7.2-6.6"/>
-            <path d="m51.5 47.7c1-1 2-2 2.8-3.1.8-1.1 1.6-2.4 2.1-3.9l-.1-.2c-2.1 1.8-4.1 3.8-6.2 5.6-2 1.9-4 3.8-6 5.8l.1.2c1.5-.4 2.8-1.1 4-1.8 1.2-.8 2.2-1.7 3.3-2.6"/>
-            <path d="m53.2 50.1c-2.3 2.3-4.7 4.5-7 6.8l.1.2c1.7-.6 3.1-1.4 4.5-2.3 1.4-.9 2.6-1.9 3.8-3.1 1.2-1.1 2.3-2.3 3.3-3.6 1-1.3 1.9-2.7 2.6-4.4l-.1-.2c-2.4 2.1-4.8 4.4-7.2 6.6"/>
-          </g>
-        </svg>
-        <h1 class="text-5xl text-white mb-3">selfcare.tech</h1>
-        <p class="text-white">a repository of self-care resources for developers &amp; others</p>
+    <!-- Main Content Area with white background -->
+    <main class="bg-white min-h-screen">
+      <div class="max-w-site mx-auto px-5 py-8">
+        <slot />
       </div>
-    )}
-
-    <!-- Page Content -->
-    <slot />
+    </main>
 
     <!-- Simple Footer -->
-    <footer class="text-center pt-20 text-white text-sm">
-      <p>
-        created with love by
-        <a href="http://jenniferlynparsons.net" class="text-white underline">Jennifer Lyn Parsons</a>
-        with help from
-        <a href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md#credits" class="text-white underline">
-          some awesome people
-        </a>.
-      </p>
+    <footer class="bg-selfcare-blue text-white text-center py-20">
+      <div class="max-w-site mx-auto px-5">
+        <p class="text-sm">
+          created with love by
+          <a href="http://jenniferlynparsons.net" class="text-white underline">Jennifer Lyn Parsons</a>
+          with help from
+          <a href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/README.md#credits" class="text-white underline">
+            some awesome people
+          </a>.
+        </p>
+      </div>
     </footer>
   </body>
 </html>

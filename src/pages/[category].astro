@@ -27,32 +27,30 @@ const sortedResources = resources.sort((a, b) => {
 ---
 
 <Layout title={`${category.data.title} - selfcare.tech`}>
-  <div class="max-w-4xl mx-auto">
-    <!-- Header -->
-    <div class="mb-8">
-      <a href="/" class="text-white/80 hover:text-white mb-4 inline-block transition-colors duration-200">
-        ← Back to Categories
-      </a>
-      <h1 class="text-3xl font-bold text-white">{category.data.title}</h1>
-    </div>
+  <!-- Header -->
+  <div class="mb-8">
+    <a href="/" class="text-gray-600 hover:text-gray-800 mb-4 inline-block transition-colors duration-200">
+      ← Back to Categories
+    </a>
+    <h1 class="text-3xl font-bold text-selfcare-600">{category.data.title}</h1>
+  </div>
 
-    <!-- Resources List -->
-    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
-      {sortedResources.map((resource, index) => (
-        <ResourceCard 
-          title={resource.data.title}
-          url={resource.data.url}
-          description={resource.data.description}
-          isLast={index === sortedResources.length - 1}
-        />
-      ))}
-      
-      {sortedResources.length === 0 && (
-        <div class="text-center py-12">
-          <p class="text-white/80 text-lg">No resources available in this category yet.</p>
-          <p class="text-white/60 text-sm mt-2">Check back soon for new additions!</p>
-        </div>
-      )}
-    </div>
+  <!-- Resources List -->
+  <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-lg">
+    {sortedResources.map((resource, index) => (
+      <ResourceCard 
+        title={resource.data.title}
+        url={resource.data.url}
+        description={resource.data.description}
+        isLast={index === sortedResources.length - 1}
+      />
+    ))}
+    
+    {sortedResources.length === 0 && (
+      <div class="text-center py-12">
+        <p class="text-gray-600 text-lg">No resources available in this category yet.</p>
+        <p class="text-gray-500 text-sm mt-2">Check back soon for new additions!</p>
+      </div>
+    )}
   </div>
 </Layout>
