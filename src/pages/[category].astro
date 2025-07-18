@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import CategorySection from '../components/CategorySection.astro';
+import ResourceCard from '../components/ResourceCard.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -13,18 +13,46 @@ export async function getStaticPaths() {
 }
 
 const { category } = Astro.props;
+const resources = await getCollection('resources', ({ data }) => data.category === category.slug);
+
+// Sort resources by order, then by title
+const sortedResources = resources.sort((a, b) => {
+  if (a.data.order && b.data.order) {
+    return a.data.order - b.data.order;
+  }
+  if (a.data.order) return -1;
+  if (b.data.order) return 1;
+  return a.data.title.localeCompare(b.data.title);
+});
 ---
 
 <Layout title={`${category.data.title} - selfcare.tech`}>
-  <div class="container">
-    <CategorySection 
-      categoryId={category.slug} 
-      title={category.data.title}
-      subtitle={category.data.title.toLowerCase()}
-    />
-    
-    <div class="meta">
-      <p><a href="/">← Back to all categories</a></p>
+  <div class="max-w-4xl mx-auto">
+    <!-- Header -->
+    <div class="mb-8">
+      <a href="/" class="text-white/80 hover:text-white mb-4 inline-block transition-colors duration-200">
+        ← Back to Categories
+      </a>
+      <h1 class="text-3xl font-bold text-white">{category.data.title}</h1>
+    </div>
+
+    <!-- Resources List -->
+    <div class="bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20">
+      {sortedResources.map((resource, index) => (
+        <ResourceCard 
+          title={resource.data.title}
+          url={resource.data.url}
+          description={resource.data.description}
+          isLast={index === sortedResources.length - 1}
+        />
+      ))}
+      
+      {sortedResources.length === 0 && (
+        <div class="text-center py-12">
+          <p class="text-white/80 text-lg">No resources available in this category yet.</p>
+          <p class="text-white/60 text-sm mt-2">Check back soon for new additions!</p>
+        </div>
+      )}
     </div>
   </div>
 </Layout>
