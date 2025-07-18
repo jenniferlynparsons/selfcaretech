@@ -7,6 +7,8 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [svelte(), tailwind()],
   output: 'static',
+  site: 'https://jenniferlynparsons.github.io',
+  base: '/selfcaretech',
   build: {
     assets: '_assets'
   }

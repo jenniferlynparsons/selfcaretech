@@ -1,36 +1,37 @@
 ---
 export interface Props {
-  title: string;
-  url: string;
-  description: string;
-  isLast?: boolean;
+	title: string;
+	url: string;
+	description: string;
+	isLast?: boolean;
 }
 
 const { title, url, description, isLast = false } = Astro.props;
 ---
 
-<div class="py-6">
-  <!-- Title as Header -->
-  <h3 class="text-xl font-bold text-white mb-3">{title}</h3>
-  
-  <!-- Description -->
-  <p class="text-white/80 mb-4 leading-relaxed">{description}</p>
-  
-  <!-- Link Button -->
-  <a 
-    href={url} 
-    target="_blank" 
-    rel="noopener noreferrer"
-    class="inline-flex items-center px-4 py-2 bg-white text-selfcare-600 rounded-lg font-medium hover:bg-gray-50 transition-colors duration-200"
-  >
-    Visit Resource
-    <svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
-    </svg>
-  </a>
-  
-  <!-- Light Divider (only if not last item) -->
-  {!isLast && (
-    <div class="mt-6 border-b border-white/20"></div>
-  )}
+<div class="py-2">
+	<!-- Title as Header Link -->
+	<h3 class="text-l font-bold mb-2">
+		<a
+			href={url}
+			target="_blank"
+			rel="noopener noreferrer"
+			class="inline-flex items-center text-selfcare-500 hover:hover:text-selfcare-300 transition-colors duration-200"
+		>
+			{title}
+			<svg class="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+				<path
+					stroke-linecap="round"
+					stroke-linejoin="round"
+					stroke-width="2"
+					d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path>
+			</svg>
+		</a>
+	</h3>
+
+	<!-- Description -->
+	<p class="mb-4 leading-relaxed">{description}</p>
+
+	<!-- Light Divider (only if not last item) -->
+	{!isLast && <div class="mt-6 border-b border-white/20" />}
 </div>

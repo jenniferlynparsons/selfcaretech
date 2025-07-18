@@ -4,12 +4,12 @@ import ResourceCard from '../components/ResourceCard.astro';
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const categories = await getCollection('categories');
-  
-  return categories.map((category) => ({
-    params: { category: category.slug },
-    props: { category },
-  }));
+	const categories = await getCollection('categories');
+
+	return categories.map((category) => ({
+		params: { category: category.slug },
+		props: { category }
+	}));
 }
 
 const { category } = Astro.props;
@@ -17,40 +17,41 @@ const resources = await getCollection('resources', ({ data }) => data.category =
 
 // Sort resources by order, then by title
 const sortedResources = resources.sort((a, b) => {
-  if (a.data.order && b.data.order) {
-    return a.data.order - b.data.order;
-  }
-  if (a.data.order) return -1;
-  if (b.data.order) return 1;
-  return a.data.title.localeCompare(b.data.title);
+	if (a.data.order && b.data.order) {
+		return a.data.order - b.data.order;
+	}
+	if (a.data.order) return -1;
+	if (b.data.order) return 1;
+	return a.data.title.localeCompare(b.data.title);
 });
 ---
 
 <Layout title={`${category.data.title} - selfcare.tech`}>
-  <!-- Header -->
-  <div class="mb-8">
-    <a href="/" class="text-gray-600 hover:text-gray-800 mb-4 inline-block transition-colors duration-200">
-      ← Back to Categories
-    </a>
-    <h1 class="text-3xl font-bold text-selfcare-600">{category.data.title}</h1>
-  </div>
+	<!-- Header -->
+	<div class="mb-8 mt-4">
+		<h1 class="text-3xl font-bold text-selfcare-600">{category.data.title}</h1>
+	</div>
 
-  <!-- Resources List -->
-  <div class="bg-white rounded-xl p-6 border border-gray-200 shadow-lg">
-    {sortedResources.map((resource, index) => (
-      <ResourceCard 
-        title={resource.data.title}
-        url={resource.data.url}
-        description={resource.data.description}
-        isLast={index === sortedResources.length - 1}
-      />
-    ))}
-    
-    {sortedResources.length === 0 && (
-      <div class="text-center py-12">
-        <p class="text-gray-600 text-lg">No resources available in this category yet.</p>
-        <p class="text-gray-500 text-sm mt-2">Check back soon for new additions!</p>
-      </div>
-    )}
-  </div>
+	<!-- Resources List -->
+	<div>
+		{
+			sortedResources.map((resource, index) => (
+				<ResourceCard
+					title={resource.data.title}
+					url={resource.data.url}
+					description={resource.data.description}
+					isLast={index === sortedResources.length - 1}
+				/>
+			))
+		}
+
+		{
+			sortedResources.length === 0 && (
+				<div class="text-center py-12">
+					<p class="text-gray-600 text-lg">No resources available in this category yet.</p>
+					<p class="text-gray-500 text-sm mt-2">Check back soon for new additions!</p>
+				</div>
+			)
+		}
+	</div>
 </Layout>
