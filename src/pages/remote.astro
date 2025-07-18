@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import ResourceCard from '../components/ResourceCard.astro';
+---
+
+<Layout title="Remote Work Resources - selfcare.tech">
+  <div class="max-w-6xl mx-auto">
+    <!-- Header Section -->
+    <div class="mb-12 text-center">
+      <div class="bg-white/10 backdrop-blur-sm rounded-xl p-8 border border-white/20">
+        <h2 class="text-3xl font-bold text-white mb-4">Remote Work Resources</h2>
+        <p class="text-white/80 text-lg max-w-3xl mx-auto">
+          The COVID-19 virus has changed the face of work for many people, most of whom have never
+          worked from home before. This page is a resource for those who are new to the world of
+          remote work.
+        </p>
+      </div>
+    </div>
+
+    <!-- Teams Section -->
+    <section class="mb-16">
+      <h3 class="text-2xl font-bold text-white mb-6">Guides for teams</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ResourceCard
+          title="Awesome Remote Work"
+          url="https://github.com/hugo53/awesome-RemoteWork"
+          description="Resources for remote workers: approaches, hiring page, remote life and more."
+        />
+        <ResourceCard
+          title="Glitch for Remote Work"
+          url="https://glitch.com/remote/"
+          description="Glitch runs remotely and has developed this guide to help others do the same."
+        />
+      </div>
+    </section>
+
+    <!-- Managers Section -->
+    <section class="mb-16">
+      <h3 class="text-2xl font-bold text-white mb-6">Guides for managers</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ResourceCard
+          title="How to lead with clarity and empathy in the remote world"
+          url="https://stackoverflow.blog/2020/11/05/how-to-lead-with-clarity-and-empathy-in-the-remote-world/"
+          description="In this newly remote world, it can be difficult to figure out the best ways to support and motivate your team."
+          featured={true}
+        />
+      </div>
+    </section>
+
+    <!-- Employees Section -->
+    <section class="mb-16">
+      <h3 class="text-2xl font-bold text-white mb-6">Guides for employees</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <ResourceCard
+          title="5 self-care habits to get into if you work from home"
+          url="https://www.moo.com/blog/business-tips/5-self-care-habits-for-homeworkers"
+          description="Working at home means you've got total control over your work environment – so why not make it into a VIP experience with these daily self-care habits?"
+          featured={true}
+        />
+      </div>
+    </section>
+
+    <!-- Contributing Section -->
+    <div class="mt-12 bg-white rounded-xl p-8 shadow-lg text-center">
+      <h3 class="text-2xl font-bold text-selfcare-600 mb-4">Contributing to the site</h3>
+      <p class="text-gray-600 mb-6">
+        Have a link to share? Submit a pull request!
+        <br />
+        This project is intended to be a living, breathing resource.
+      </p>
+      <a
+        href="https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="inline-flex items-center px-6 py-3 bg-selfcare-500 text-white rounded-lg font-medium hover:bg-selfcare-600 transition-colors duration-200"
+      >
+        <svg class="mr-2 w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+        Contribute a Link
+      </a>
+    </div>
+  </div>
+</Layout>

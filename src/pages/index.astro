@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CategorySection from '../components/CategorySection.astro';
+import { getCollection } from 'astro:content';
+
+// Get all categories
+const categories = await getCollection('categories');
+const sortedCategories = categories.sort((a, b) => {
+  if (a.data.order && b.data.order) {
+    return a.data.order - b.data.order;
+  }
+  if (a.data.order) return -1;
+  if (b.data.order) return 1;
+  return a.data.title.localeCompare(b.data.title);
+});
+---
+
+<Layout title="selfcare.tech">
+  <div class="container">
+    <!-- Dynamic rendering of all categories -->
+    {sortedCategories.map((category) => (
+      <CategorySection 
+        categoryId={category.slug} 
+        title={category.data.title}
+        subtitle={category.data.title.toLowerCase()}
+      />
+    ))}
+  </div>
+</Layout>

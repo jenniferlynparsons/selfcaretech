@@ -1,0 +1,30 @@
+---
+import Layout from '../layouts/Layout.astro';
+import CategorySection from '../components/CategorySection.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const categories = await getCollection('categories');
+  
+  return categories.map((category) => ({
+    params: { category: category.slug },
+    props: { category },
+  }));
+}
+
+const { category } = Astro.props;
+---
+
+<Layout title={`${category.data.title} - selfcare.tech`}>
+  <div class="container">
+    <CategorySection 
+      categoryId={category.slug} 
+      title={category.data.title}
+      subtitle={category.data.title.toLowerCase()}
+    />
+    
+    <div class="meta">
+      <p><a href="/">← Back to all categories</a></p>
+    </div>
+  </div>
+</Layout>

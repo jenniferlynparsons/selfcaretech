@@ -1,0 +1,19 @@
+---
+export interface Props {
+  title: string;
+  url: string;
+  description: string;
+}
+
+const { title, url, description } = Astro.props;
+---
+
+<!-- Simple white card matching original design -->
+<div class="bg-white p-4 text-black">
+  <h3 class="font-bold text-black mb-2">
+    <a href={url} class="text-black hover:underline" target="_blank" rel="noopener noreferrer">
+      {title}
+    </a>
+  </h3>
+  <p class="text-sm text-black">{description}</p>
+</div>

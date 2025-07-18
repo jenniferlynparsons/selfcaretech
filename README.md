@@ -1,64 +1,47 @@
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+# Astro Starter Kit: Minimal
 
-# selfcare.tech
-a repository of self-care resources
+```sh
+npm create astro@latest -- --template minimal
+```
 
-one day i wasn't feeling well and told some friends on [We All JS](http://wealljs.org/) that i was going to hide in my virtual hoodie. it started me thinking about how important self care is, and how little we pay attention to it in the tech community.
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
 
-so often i see my fellow developers ignoring their basic needs for rest and refreshment. i started this site to provide a central location to find links that will help us all take better care of ourselves.
+> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
-not a developer or involved in tech? you still deserve to take time for self-care, too! you don't have to be in tech to contribute and use these links.
+## 🚀 Project Structure
 
-have a link to share? just [submit a pull request](https://github.com/jenniferlynparsons/selfcaretech/blob/master/CONTRIBUTING.md)!
+Inside of your Astro project, you'll see the following folders and files:
 
-# more meta stuff
+```text
+/
+├── public/
+├── src/
+│   └── pages/
+│       └── index.astro
+└── package.json
+```
 
-[I won’t tell you to stop working, but I can try to help you not burn out](https://medium.com/@pixelpaperyarn/i-wont-tell-you-to-stop-working-but-i-can-try-to-help-you-not-burn-out-2730a713e543#.lgwmsdpun) - i wrote a post on medium to dig a little deeper into why i made this site.
+Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
 
-[selfcare_tech](https://twitter.com/selfcare_tech) - i made a twitter bot if you'd like to follow it. there are reminders for selfcare practice and the occasional link as well.
+There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
 
-## credits
+Any static assets, like images, can be placed in the `public/` directory.
 
-much thanks goes to these awesome people for helping me hammer out some very important details at the start of this project:
+## 🧞 Commands
 
-* [@charlotteis](https://twitter.com/charlotteis)
-* [@_jokuge](https://twitter.com/_jokuge)
-* [Sarah Withee](https://twitter.com/geekygirlsarah)
-* and the helpful folks of [We All JS](http://wealljs.org/)
+All commands are run from the root of the project, from a terminal:
 
-thanks to [Mich Elliott](http://github.com/mchlltt/) and [Damian Senn](https://github.com/topaxi) for helping fix things up!
+| Command                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `npm install`             | Installs dependencies                            |
+| `npm run dev`             | Starts local dev server at `localhost:4321`      |
+| `npm run build`           | Build your production site to `./dist/`          |
+| `npm run preview`         | Preview your build locally, before deploying     |
+| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-build using [picnic](https://picnicss.com/), [tota11y](http://khan.github.io/tota11y/), and my own two hands.
+## 👀 Want to learn more?
 
-## submissions
-
-these folks have submitted helpful links to improve the directory:
-
-* [@AstraKiseki](https://github.com/AstraKiseki)
-* [Leigh Honeywell](https://hypatia.ca)
-* [Brighid](http://stronglyemergent.com/)
-* [Laura Webb](http://www.LRWebb.com)
-* [Jeseekia Vaughn](http://metadevgirl.com)
-* [@kmkrn](https://github.com/kmkrn)
-* [@mchlltt](http://github.com/mchlltt/)
-* [Kate Bladow](https://github.com/kbladow)
-* [Bob Massarczyk](http://www.b2m9.com)
-* [@katie7r](https://github.com/katie7r)
-* [Jim Withington](https://www.jwithy.com)
-* [JR](http://www.jaejeb.com/)
-* [Sandra Friesen](https://www.linkedin.com/in/semer/)
-* [Claire Lundeby](https://github.com/clairealyssa)
-* [Nina Zakharenko](http://nnja.io)
-* [Carolyn Stransky](https://twitter.com/carolstran)
-* [jmf.codes](https://jmf.codes)
-* [madi](http://bff.fm/shows/chemical-x)
-* [Borche](https://jinglow.com)
-* [Daragh Byrne](https://www.codingmindfully.com)
-* [Brandon 'LinuxLiaison' Nolet](https://linuxliaison.org)
-* [Jess Unrein](https://jessunrein.com)
-
----
-
-want to say thanks?
-
-[![ko-fi](https://www.ko-fi.com/img/donate_sm.png)](https://ko-fi.com/P5P25E22)
+Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
