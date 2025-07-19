@@ -15,11 +15,11 @@ const { title, description = "A repository of self-care resources for developers
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="icon" type="image/svg+xml" href={`${import.meta.env.BASE_URL}favicon.svg`} />
+    <link rel="apple-touch-icon" sizes="180x180" href={`${import.meta.env.BASE_URL}apple-touch-icon.png`}>
+    <link rel="icon" type="image/png" sizes="32x32" href={`${import.meta.env.BASE_URL}favicon-32x32.png`}>
+    <link rel="icon" type="image/png" sizes="16x16" href={`${import.meta.env.BASE_URL}favicon-16x16.png`}>
+    <link rel="manifest" href={`${import.meta.env.BASE_URL}manifest.json`}>
     <title>{title}</title>
   </head>
   <body class="bg-white text-gray-900 min-h-screen">
@@ -28,7 +28,7 @@ const { title, description = "A repository of self-care resources for developers
       <!-- Simple Navigation matching original -->
       <nav class="flex justify-between items-center p-5 max-w-site mx-auto">
         <div class="flex items-center space-x-2">
-          <a href="/" class="flex items-center space-x-2 text-white">
+          <a href={import.meta.env.BASE_URL} class="flex items-center space-x-2 text-white">
             <svg class="w-10 h-10 max-h-10 max-w-10 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
               <g>
                 <path d="m57.2 22.1c-5.5-14.8-23.5-8.2-25.2-.8-2.3-7.9-19.8-13.8-25.2.8-6 16.2 23.1 30.7 25.2 33.1 2.1-1.9 31.2-17.2 25.2-33.1"/>

@@ -32,7 +32,7 @@ const sortedCategories = categories.sort((a, b) => {
 				{
 					sortedCategories.map((category) => (
 						<a
-							href={`/${category.slug}`}
+							href={`${import.meta.env.BASE_URL}${category.slug}/`}
 							class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-200"
 						>
 							{category.data.title}
@@ -44,5 +44,5 @@ const sortedCategories = categories.sort((a, b) => {
 	</div>
 
 	<!-- Remote Link -->
-	<a href="/remote" class="text-white hover:underline">Remote Work Resources</a>
+	<a href={`${import.meta.env.BASE_URL}remote/`} class="text-white hover:underline">Remote Work Resources</a>
 </div>
