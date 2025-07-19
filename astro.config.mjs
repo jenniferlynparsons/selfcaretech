@@ -7,5 +7,10 @@ export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
   site: 'https://jenniferlynparsons.github.io',
-  base: '/selfcaretech'
+  base: '/selfcaretech',
+  vite: {
+    build: {
+      assetsInlineLimit: 0
+    }
+  }
 });
