@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "deploy": "npm run build && node deploy.js"
   },
   "dependencies": {
     "@astrojs/tailwind": "^6.0.2",

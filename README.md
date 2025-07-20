@@ -1,12 +1,46 @@
-# Astro Starter Kit: Minimal
+# selfcare.tech
+
+A repository of self-care resources for developers & others, built with Astro and Tailwind CSS.
+
+## Development
 
 ```sh
-npm create astro@latest -- --template minimal
+npm install
+npm run dev
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
+## Building
+
+```sh
+npm run build
+```
+
+## Deployment to GitHub Pages
+
+This project is configured to deploy to GitHub Pages using the gh-pages branch method:
+
+1. **First time setup**: Make sure GitHub Pages is configured to use the gh-pages branch as the source in your repository settings.
+
+2. **Deploy**: After making changes, commit them to your main branch and run:
+   ```sh
+   npm run deploy
+   ```
+
+3. **What the deploy script does**:
+   - Builds the project (`npm run build`)
+   - Switches to or creates a `gh-pages` branch
+   - Copies the build output to the root of the gh-pages branch
+   - Commits and pushes the changes
+   - Switches back to your original branch
+
+4. **Site URL**: https://jenniferlynparsons.github.io/selfcaretech/
+
+## Project Structure
+
+Built with:
+- Astro 5.x
+- Tailwind CSS 3.x
+- TypeScript
 
 > 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
 
