@@ -6,8 +6,8 @@ import tailwind from '@astrojs/tailwind';
 export default defineConfig({
   integrations: [tailwind()],
   output: 'static',
-  site: 'https://jenniferlynparsons.github.io',
-  base: '/selfcaretech',
+  site: 'https://selfcare.tech',
+  base: '/', // Explicitly set base path for custom domain
   vite: {
     build: {
       assetsInlineLimit: 0
